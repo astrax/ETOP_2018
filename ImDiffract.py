@@ -30,7 +30,7 @@ class ImDiffract(QMainWindow, Ui_MainWindow):
 #        plt1.ax.imshow(self.img)
         plt1.ax.imshow(self.im_rot, interpolation='gaussian')
         plt1.ax.axhline(y=self.yc, color='y',lw=2, ls='--')
-        plt1.ax.set_title("Figure de diffraction", fontsize=14, weight="bold")
+        plt1.ax.set_title("Diffraction Pattern", fontsize=14, weight="bold")
         plt1.ax.set_xlabel("Pixels", weight="bold")
         plt1.ax.set_ylabel("Pixels", weight="bold")
         plt1.draw()
@@ -56,7 +56,7 @@ class ImDiffract(QMainWindow, Ui_MainWindow):
         plt2.ax.plot(line)
         plt2.ax.set_title("Profile", fontsize=14, weight="bold")
         plt2.ax.set_xlabel("Pixels", weight="bold")
-        plt2.ax.set_ylabel("Inetensité (ua)", weight="bold")
+        plt2.ax.set_ylabel("Inetensity (au)", weight="bold")
         plt2.draw()
    
     @pyqtSlot("int")
