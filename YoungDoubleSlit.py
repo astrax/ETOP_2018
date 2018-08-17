@@ -28,7 +28,7 @@ class DoubleSlit1D(QMainWindow, Ui_MainWindow):
         # f2=D Lens focal-length(m)
         D = self.slider_D.value()/10
         # Square-shaped screen (m)
-        sx = self.SpinBox_sx.value() * 1.E-2
+        sx = 2 * 1.E-2
 #        sx =10.E-3
         # Central maximum width (Ox)
         dx = 1.E+2 * (2 * lamda * D) / b
@@ -106,11 +106,6 @@ class DoubleSlit1D(QMainWindow, Ui_MainWindow):
         self.fig1()
 
     @pyqtSlot("int")
-    def on_slider_sx_valueChanged(self, value):
-        self.SpinBox_sx.setValue(value/10)
-        self.fig1()
-
-    @pyqtSlot("int")
     def on_slider_D_valueChanged(self, value):
         self.SpinBox_D.setValue(value/10)
         self.fig1()
@@ -133,10 +128,6 @@ class DoubleSlit1D(QMainWindow, Ui_MainWindow):
         self.slider_a.setValue(value*1000)
         self.fig1()
 
-    @pyqtSlot("double")
-    def on_SpinBox_sx_valueChanged(self, value):
-        self.slider_sx.setValue(value*10)
-        self.fig1()
 
     @pyqtSlot("double")
     def on_SpinBox_D_valueChanged(self, value):

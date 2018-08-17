@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'Ui_DoubleSlit1D.ui'
 #
-# Created by: PyQt5 UI code generator 5.6
+# Created by: PyQt5 UI code generator 5.9.2
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -180,26 +180,6 @@ class Ui_MainWindow(object):
         self.label_3 = QtWidgets.QLabel(self.gb_sim)
         self.label_3.setObjectName("label_3")
         self.gridLayout_3.addWidget(self.label_3, 2, 6, 1, 1)
-        self.slider_sx = QtWidgets.QSlider(self.gb_sim)
-        self.slider_sx.setMinimum(10)
-        self.slider_sx.setMaximum(400)
-        self.slider_sx.setSingleStep(1)
-        self.slider_sx.setProperty("value", 50)
-        self.slider_sx.setOrientation(QtCore.Qt.Horizontal)
-        self.slider_sx.setObjectName("slider_sx")
-        self.gridLayout_3.addWidget(self.slider_sx, 2, 1, 1, 1)
-        self.SpinBox_sx = QtWidgets.QDoubleSpinBox(self.gb_sim)
-        self.SpinBox_sx.setLocale(QtCore.QLocale(QtCore.QLocale.English, QtCore.QLocale.UnitedStates))
-        self.SpinBox_sx.setDecimals(1)
-        self.SpinBox_sx.setMinimum(1.0)
-        self.SpinBox_sx.setMaximum(40.0)
-        self.SpinBox_sx.setSingleStep(0.1)
-        self.SpinBox_sx.setProperty("value", 5.0)
-        self.SpinBox_sx.setObjectName("SpinBox_sx")
-        self.gridLayout_3.addWidget(self.SpinBox_sx, 3, 1, 1, 1)
-        self.label_5 = QtWidgets.QLabel(self.gb_sim)
-        self.label_5.setObjectName("label_5")
-        self.gridLayout_3.addWidget(self.label_5, 2, 0, 1, 1)
         self.verticalLayout.addLayout(self.gridLayout_3)
         self.horizontalLayout.addWidget(self.gb_sim)
         self.verticalLayout_3.addLayout(self.horizontalLayout)
@@ -211,7 +191,7 @@ class Ui_MainWindow(object):
         self.statusBar.setObjectName("statusBar")
         MainWindow.setStatusBar(self.statusBar)
         self.menuBar = QtWidgets.QMenuBar(MainWindow)
-        self.menuBar.setGeometry(QtCore.QRect(0, 0, 870, 21))
+        self.menuBar.setGeometry(QtCore.QRect(0, 0, 870, 20))
         self.menuBar.setObjectName("menuBar")
         MainWindow.setMenuBar(self.menuBar)
 
@@ -238,7 +218,6 @@ class Ui_MainWindow(object):
         self.slider_b.setStatusTip(_translate("MainWindow", "Change the width of the rectangular aperture"))
         self.slider_lambda.setStatusTip(_translate("MainWindow", "Change the wave length of monochromatic light"))
         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-weight:600;\">Central spot (cm)</span></p></body></html>"))
-        self.label_5.setText(_translate("MainWindow", "screen dimension (cm)"))
 
 from mplwidget import MPL_WIDGET_2D
 

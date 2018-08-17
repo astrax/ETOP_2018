@@ -465,54 +465,6 @@
              </property>
             </widget>
            </item>
-           <item row="2" column="1">
-            <widget class="QSlider" name="slider_sx">
-             <property name="minimum">
-              <number>10</number>
-             </property>
-             <property name="maximum">
-              <number>400</number>
-             </property>
-             <property name="singleStep">
-              <number>1</number>
-             </property>
-             <property name="value">
-              <number>50</number>
-             </property>
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-            </widget>
-           </item>
-           <item row="3" column="1">
-            <widget class="QDoubleSpinBox" name="SpinBox_sx">
-             <property name="locale">
-              <locale language="English" country="UnitedStates"/>
-             </property>
-             <property name="decimals">
-              <number>1</number>
-             </property>
-             <property name="minimum">
-              <double>1.000000000000000</double>
-             </property>
-             <property name="maximum">
-              <double>40.000000000000000</double>
-             </property>
-             <property name="singleStep">
-              <double>0.100000000000000</double>
-             </property>
-             <property name="value">
-              <double>5.000000000000000</double>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="0">
-            <widget class="QLabel" name="label_5">
-             <property name="text">
-              <string>screen dimension (cm)</string>
-             </property>
-            </widget>
-           </item>
           </layout>
          </item>
         </layout>
@@ -532,7 +484,7 @@
      <x>0</x>
      <y>0</y>
      <width>870</width>
-     <height>21</height>
+     <height>20</height>
     </rect>
    </property>
   </widget>
