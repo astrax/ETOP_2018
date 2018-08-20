@@ -43,7 +43,7 @@
 \usepackage{ragged2e}
 \usepackage{wasysym}
 
-\author{\textbf{A. Ammar*, H. Ghalila, S. Varadharajan, Y. Majdi, S. Lahmar, Z Dhaoudi, M. Zghal, Zohra Ben Lakhdar, V. Lakshminarayanan*}}
+\author{\textbf{A. Ammar*, H. Ghalila, Y. Majdi, S. Lahmar, Z Dhaoudi, M. Zghal, Zohra Ben Lakhdar, V. Lakshminarayanan*}}
 \title{Hands-on experimental and computer laboratory in optics}
 \subtitle{The Young Double Slit Experiment}
 \setbeamercovered{transparent} 
@@ -80,21 +80,16 @@ Optical Society of Tunisia \& LSAMA Lab, Faculty of Sciences of Tunis}
 \begin{frame}{Active learning cycle}
 	\begin{columns}[c]
 		\begin{column}{0.6\textwidth}
-			\begin{block}{What teacher need?}
-				Teacher/Learner needs a crucial tool to animate his class:
-				\begin{itemize}
-					\item Low-cost equipment and techniques that are suitable for physics education in many developing countries.
-					\item Easy to build and to use.
-				\end{itemize}
-				
-			\end{block}
+				Teacher has to change the classical and usually passive way of teaching to one favoring Predictions, Observations, Discussions and Syntheses (PODS).
 				
 				
-		\begin{exampleblock}<2->{Example: ALOP}
+		\begin{exampleblock}{Learning through experimentation}
 			Active Learning in Optics and Photonics (ALOP) UNESCO’s programme is the best example for this concept that provide a set of experiments to understand optics and photonics.
 		\end{exampleblock}
-		\begin{alertblock}<3->{Computations}
-			ALOP does not contain computations. Nowadays, science is not only the classic two divisions: Theory and Experiment.
+		\begin{alertblock}{Learning through simulation}
+			ALOP does not contain computations or simulations. “Active learning” and “Optics simulations” together may be joined as “Active Learning in Simulating Optics” (ALSO).\\
+			Our goal is to encourage teachers and students to take an active part in developing their own codes as they design individual own experiments.\\
+			
 		\end{alertblock}
 		\end{column}
 		\begin{column}{0.4\textwidth}
@@ -108,39 +103,41 @@ Optical Society of Tunisia \& LSAMA Lab, Faculty of Sciences of Tunis}
 \end{frame}
 
 \begin{frame}{Active Learning in Simulating Optics (ALSO)}
-\begin{columns}[c]
-	\begin{column}{0.6\textwidth}
-	\begin{block}{The role of computing in science}
-			Scientific computing is often closely related to theory, but it also has many characteristics in common with experimental work.\\
-		It is therefore often viewed as a new third branch of science.\\
-		
-		Nowadays a vast majority of both experimental and theoretical papers involve some numerical calculations, simulations or computer modeling.\\
-		To start computing we need to learn a programming language.\\
-	\end{block}
 
-	
-		
-	\end{column}
-	\begin{column}{0.4\textwidth}
-		\begin{figure}
-			\includegraphics[width=\linewidth]{images/theory-experiment-computation}
-			\caption{Three branch of science.}
-		\end{figure}
-	\end{column}
-\end{columns}
+\begin{block}{Some of the criteria for a good computer simulation for classroom use}
+	Some of the criteria that are relevant for learning via simulation include:
+	\begin{itemize}
+		\item The simulations should be true to life. That is, they should simulate the activity so well that there is little
+		difference between the simulated environment and the real one, and the same kind of learning experience can
+		take place.
+		\item The simulations should be “hand-on,” involving the students so that the students become participants in the
+		simulation activity. This implies that students interact with the simulation, for example, by changing parameters, changing lines in the code, discussing the simulated results, etc.
+		\item Simulations should motivate learning. Student involvement in the activity should be such they are motivated to learn more about the activity or the subject matter.
+		\item Simulations should be customizable to the students' needs. Students' developmental requirements should be
+		taken in consideration while designing simulations specifically for them.
+		\item Simulations are meant to supplement, not replace other teaching modes. Integrating simulations into the
+		curriculum also ensures that connections to domain knowledge and real-world applications are made explicit.
+		\item As with any instructional technology, computer simulations should be chosen to meet the teaching objectives
+		and teach the content.
+	\end{itemize}
+\end{block}
 
 \end{frame}
 
-\begin{frame}{Python}
+\begin{frame}{Optics simulation with Python}
 \begin{columns}[c]
 	\begin{column}{0.6\textwidth}
-		Python is a modern, general-purpose, object oriented, high-level programming language.
+		\begin{block}{What is Python?}
+			Python is a modern, general-purpose, object oriented, high-level programming language.
+			\begin{itemize}
+				\item \textbf{Clean and simple language:} Easy-to-read and intuitive code, easy-to-learn minimalistic syntax, maintainability scales well with size of projects.
+				\item \textbf{Expressive language:} Fewer lines of code, fewer bugs, easier to maintain.
+				\item \textbf{Powerful Python packages:} open source pre-built and tested scientific and
+				analytic Python packages that include NumPy, Pandas, SciPy, Matplotlib...
+				\item \textbf{An easy way to install Python and its packages:} Anaconda is a cross platform Python distribution and easy-to-install free package and environment manager.
+			\end{itemize}
+		\end{block}
 		
-		General characteristics of Python:
-		
-		Clean and simple language: Easy-to-read and intuitive code, easy-to-learn minimalistic syntax, maintainability scales well with size of projects.
-		
-		Expressive language: Fewer lines of code, fewer bugs, easier to maintain.
 	\end{column}
 	
 	\begin{column}{0.4\textwidth}
@@ -203,7 +200,9 @@ The distance D acts as an input parameter and except for this parameter, which c
 \end{frame}
 
 %\begin{frame}{Python application}
-%	\includegraphics[width=\linewidth]{images/Image3}
+%	\includegraphics[width=\linewidth]{images/Image3}\\
+%Clone or download the code source from GitHub:\\
+%\url{https://github.com/astrax/ETOP_2018}
 %\end{frame}
 
 \begin{frame}{New published text book}
