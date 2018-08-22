@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.8.16)  21 AUG 2018 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.8.16)  22 AUG 2018 08:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -106,16 +106,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen126
 \Gm@dimlist=\toks15
 )
-
-Class beamer Warning: ``serif'' is obsolete. Use font theme ``serif'' instead o
-n input line 348.
-
-
-Class beamer Warning: ``mathserif'' is obsolete. Use font theme ``serif'' with 
-option ``onlymath'' on input line 348.
-
-(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size8.clo
-File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -492,6 +484,12 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2013/03/28
+
+(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
 Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
@@ -1762,10 +1760,10 @@ File: upxexa.fd 2000/12/14 v1.0
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Try loading font information for T1+pxr on input line 67.
+LaTeX Font Info:    Try loading font information for T1+pxss on input line 67.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/t1pxr.fd
-File: t1pxr.fd 2000/12/14 v1.0
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/t1pxss.fd
+File: t1pxss.fd 2000/12/14 v1.0
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1775,14 +1773,14 @@ File: t1pxr.fd 2000/12/14 v1.0
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(8.50012pt, 347.19511pt, 8.50012pt)
+* h-part:(L,W,R)=(9.24994pt, 345.69548pt, 9.24994pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=347.19511pt
+* \textwidth=345.69548pt
 * \textheight=244.6939pt
-* \oddsidemargin=-63.76987pt
-* \evensidemargin=-63.76987pt
+* \oddsidemargin=-63.02005pt
+* \evensidemargin=-63.02005pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1791,7 +1789,7 @@ File: t1pxr.fd 2000/12/14 v1.0
 * \marginparwidth=4.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1836,15 +1834,19 @@ LaTeX Info: Redefining \nameref on input line 67.
 \@outlinefile=\write6
 \openout6 = `Presentation.out'.
 
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/pxr/m/n --> OT1/cmss/m/n on input line 67.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/pxr/bx/n --> OT1/cmss/bx/n on input line 67.
 \symnumbers=\mathgroup11
 \sympureletters=\mathgroup12
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/pxr/m/n --> T1/pxr/m/n on input line 67.
+(Font)                  OT1/cmss/m/n --> T1/pxr/m/n on input line 67.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/pxr/bx/n --> T1/pxr/bx/n on input line 67.
+(Font)                  OT1/pxr/bx/n --> T1/pxss/bx/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/pxr/bx/n --> T1/pxr/bx/n on input line 67.
+(Font)                  OT1/pxr/bx/n --> T1/pxss/bx/n on input line 67.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/pxss/m/n --> T1/pxss/m/n on input line 67.
@@ -1852,26 +1854,26 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/pxss/b/n --> T1/pxss/m/n on input line 67.
 LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/pxr/m/it --> T1/pxr/m/it on input line 67.
+(Font)                  OT1/pxr/m/it --> T1/pxss/m/it on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/pxr/bx/it --> T1/pxr/m/it on input line 67.
+(Font)                  OT1/pxr/bx/it --> T1/pxss/m/it on input line 67.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/pxtt/m/n --> T1/pxtt/m/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/pxtt/b/n --> T1/pxtt/m/n on input line 67.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/pxr/m/n --> T1/pxr/bx/n on input line 67.
+(Font)                  T1/pxss/m/n --> T1/pxss/bx/n on input line 67.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/pxr/m/it --> T1/pxr/bx/it on input line 67.
+(Font)                  T1/pxss/m/it --> T1/pxss/bx/it on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/pxr/bx/n --> T1/pxr/bx/n on input line 67.
+(Font)                  OT1/cmss/bx/n --> T1/pxr/bx/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/pxr/bx/n --> T1/pxr/bx/n on input line 67.
+(Font)                  T1/pxss/bx/n --> T1/pxss/bx/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  T1/pxss/m/n --> T1/pxss/bx/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/pxr/m/it --> T1/pxr/bx/it on input line 67.
+(Font)                  T1/pxss/m/it --> T1/pxss/bx/it on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/pxtt/m/n --> T1/pxtt/bx/n on input line 67.
 
@@ -1915,12 +1917,12 @@ Package biblatex Info: Reference section=0 on input line 67.
 Package biblatex Info: Reference segment=0 on input line 67.
 
 (./Presentation.nav)
-Overfull \hbox (224.61086pt too wide) in paragraph at lines 67--67
- [][]  \T1/pxr/m/n/5 ([])  
+Overfull \hbox (225.50795pt too wide) in paragraph at lines 67--67
+ [][]  \T1/pxss/m/n/5 ([])  
  []
 
 
-Overfull \hbox (7.67668pt too wide) in paragraph at lines 67--67
+Overfull \hbox (5.6233pt too wide) in paragraph at lines 67--67
  [][][][][][]  
  []
 
@@ -1938,12 +1940,12 @@ File: images/logoLSAMA.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/logoLSAMA.pdf used on input line 70.
 (pdftex.def)             Requested size: 42.67912pt x 42.6746pt.
 
-Overfull \hbox (224.61086pt too wide) has occurred while \output is active
- [][]  \T1/pxr/m/n/5 ([])  
+Overfull \hbox (225.50795pt too wide) has occurred while \output is active
+ [][]  \T1/pxss/m/n/5 ([])  
  []
 
 
-Overfull \hbox (7.67668pt too wide) has occurred while \output is active
+Overfull \hbox (5.6233pt too wide) has occurred while \output is active
  [][][][][][]  
  []
 
@@ -1951,32 +1953,30 @@ Overfull \hbox (7.67668pt too wide) has occurred while \output is active
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/STO_logo.jpg> <./
 images/logoLSAMA.pdf>]
-<images/Laurentius_de_Voltolina_001.jpg, id=68, 559.33969pt x 451.6875pt>
+<images/Laurentius_de_Voltolina_001.jpg, id=67, 559.33969pt x 451.6875pt>
 File: images/Laurentius_de_Voltolina_001.jpg Graphic file (type jpg)
 
 <use images/Laurentius_de_Voltolina_001.jpg>
 Package pdftex.def Info: images/Laurentius_de_Voltolina_001.jpg used on input l
 ine 78.
-(pdftex.def)             Requested size: 225.6747pt x 182.24321pt.
+(pdftex.def)             Requested size: 224.69995pt x 181.4506pt.
 
-Overfull \hbox (224.61086pt too wide) has occurred while \output is active
- [][]  \T1/pxr/m/n/5 ([])  
+Overfull \vbox (8.22932pt too high) detected at line 78
  []
 
 
-Overfull \hbox (7.67668pt too wide) has occurred while \output is active
+Overfull \hbox (225.50795pt too wide) has occurred while \output is active
+ [][]  \T1/pxss/m/n/5 ([])  
+ []
+
+
+Overfull \hbox (5.6233pt too wide) has occurred while \output is active
  [][][][][][]  
  []
 
 [2
 
  <./images/Laurentius_de_Voltolina_001.jpg>]
-LaTeX Font Info:    Try loading font information for OT1+pxr on input line 103.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/ot1pxr.fd
-File: ot1pxr.fd 2000/12/14 v1.0
-)
 LaTeX Font Info:    Try loading font information for U+pxsya on input line 103.
 
 
@@ -1988,6 +1988,12 @@ LaTeX Font Info:    Try loading font information for U+pxsyb on input line 103.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pxfonts/upxsyb.fd
 File: utxsyb.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Try loading font information for OT1+pxr on input line 103.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/ot1pxr.fd
+File: ot1pxr.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Try loading font information for U+pxmia on input line 103.
 
@@ -2006,86 +2012,99 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 103.
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-<images/alop_cycle.png, id=99, 275.52937pt x 265.74281pt>
+LaTeX Font Info:    Font shape `T1/pxss/m/it' in size <9> not available
+(Font)              Font shape `T1/pxss/m/sl' tried instead on input line 103.
+LaTeX Font Info:    Font shape `T1/pxss/m/it' in size <6> not available
+(Font)              Font shape `T1/pxss/m/sl' tried instead on input line 103.
+LaTeX Font Info:    Font shape `T1/pxss/m/it' in size <5> not available
+(Font)              Font shape `T1/pxss/m/sl' tried instead on input line 103.
+
+<images/alop_cycle.png, id=98, 275.52937pt x 265.74281pt>
 File: images/alop_cycle.png Graphic file (type png)
 
 <use images/alop_cycle.png>
 Package pdftex.def Info: images/alop_cycle.png used on input line 103.
-(pdftex.def)             Requested size: 138.87592pt x 133.94562pt.
+(pdftex.def)             Requested size: 138.27608pt x 133.36983pt.
 
-Overfull \hbox (224.61086pt too wide) has occurred while \output is active
- [][]  \T1/pxr/m/n/5 ([])  
+Overfull \hbox (225.50795pt too wide) has occurred while \output is active
+ [][]  \T1/pxss/m/n/5 ([])  
  []
 
 
-Overfull \hbox (7.67668pt too wide) has occurred while \output is active
+Overfull \hbox (5.6233pt too wide) has occurred while \output is active
  [][][][][][]  
  []
 
 [3
 
  <./images/alop_cycle.png>]
-Overfull \hbox (224.61086pt too wide) has occurred while \output is active
- [][]  \T1/pxr/m/n/5 ([])  
+Overfull \hbox (225.50795pt too wide) has occurred while \output is active
+ [][]  \T1/pxss/m/n/5 ([])  
  []
 
 
-Overfull \hbox (7.67668pt too wide) has occurred while \output is active
+Overfull \hbox (5.6233pt too wide) has occurred while \output is active
  [][][][][][]  
  []
 
 [4
 
-] <images/python.png, id=157, 219.06844pt x 362.10281pt>
+] <images/python.png, id=156, 219.06844pt x 362.10281pt>
 File: images/python.png Graphic file (type png)
 
 <use images/python.png>
-Package pdftex.def Info: images/python.png used on input line 150.
-(pdftex.def)             Requested size: 111.10115pt x 183.64229pt.
+Package pdftex.def Info: images/python.png used on input line 147.
+(pdftex.def)             Requested size: 110.62128pt x 182.85217pt.
 
-Overfull \hbox (224.61086pt too wide) has occurred while \output is active
- [][]  \T1/pxr/m/n/5 ([])  
+Overfull \vbox (0.33536pt too high) detected at line 147
  []
 
 
-Overfull \hbox (7.67668pt too wide) has occurred while \output is active
+Overfull \hbox (225.50795pt too wide) has occurred while \output is active
+ [][]  \T1/pxss/m/n/5 ([])  
+ []
+
+
+Overfull \hbox (5.6233pt too wide) has occurred while \output is active
  [][][][][][]  
  []
 
 [5
 
  <./images/python.png>]
-<images/alop2018.png, id=184, 492.33937pt x 364.36125pt>
+<images/alop2018.png, id=183, 492.33937pt x 364.36125pt>
 File: images/alop2018.png Graphic file (type png)
 
 <use images/alop2018.png>
-Package pdftex.def Info: images/alop2018.png used on input line 159.
-(pdftex.def)             Requested size: 243.0355pt x 179.86177pt.
+Package pdftex.def Info: images/alop2018.png used on input line 156.
+(pdftex.def)             Requested size: 241.98578pt x 179.08342pt.
 
-Overfull \hbox (224.61086pt too wide) has occurred while \output is active
- [][]  \T1/pxr/m/n/5 ([])  
+Overfull \hbox (225.50795pt too wide) has occurred while \output is active
+ [][]  \T1/pxss/m/n/5 ([])  
  []
 
 
-Overfull \hbox (7.67668pt too wide) has occurred while \output is active
+Overfull \hbox (5.6233pt too wide) has occurred while \output is active
  [][][][][][]  
  []
 
 [6
 
  <./images/alop2018.png>]
-<images/Image1.png, id=211, 605.26125pt x 251.69896pt>
+<images/Image1.png, id=210, 605.26125pt x 251.69896pt>
 File: images/Image1.png Graphic file (type png)
  <use images/Image1.png>
-Package pdftex.def Info: images/Image1.png used on input line 168.
-(pdftex.def)             Requested size: 312.47348pt x 129.94325pt.
+Package pdftex.def Info: images/Image1.png used on input line 165.
+(pdftex.def)             Requested size: 311.12381pt x 129.38252pt.
+LaTeX Font Info:    Font shape `T1/pxss/m/it' in size <8> not available
+(Font)              Font shape `T1/pxss/m/sl' tried instead on input line 165.
 
-Overfull \hbox (224.61086pt too wide) has occurred while \output is active
- [][]  \T1/pxr/m/n/5 ([])  
+Overfull \hbox (225.50795pt too wide) has occurred while \output is active
+ [][]  \T1/pxss/m/n/5 ([])  
  []
 
 
-Overfull \hbox (7.67668pt too wide) has occurred while \output is active
+Overfull \hbox (5.6233pt too wide) has occurred while \output is active
  [][][][][][]  
  []
 
@@ -2096,21 +2115,25 @@ Overfull \hbox (7.67668pt too wide) has occurred while \output is active
 File: images/DoubleFente.pdf Graphic file (type pdf)
 
 <use images/DoubleFente.pdf>
-Package pdftex.def Info: images/DoubleFente.pdf used on input line 204.
-(pdftex.def)             Requested size: 121.5204pt x 83.02649pt.
+Package pdftex.def Info: images/DoubleFente.pdf used on input line 201.
+(pdftex.def)             Requested size: 120.99551pt x 82.66765pt.
  <images/im2.png, id=243, 729.927pt x 274.27771pt>
 File: images/im2.png Graphic file (type png)
 
 <use images/im2.png>
-Package pdftex.def Info: images/im2.png used on input line 204.
-(pdftex.def)             Requested size: 190.95836pt x 71.75414pt.
+Package pdftex.def Info: images/im2.png used on input line 201.
+(pdftex.def)             Requested size: 190.13356pt x 71.44444pt.
 
-Overfull \hbox (224.61086pt too wide) has occurred while \output is active
- [][]  \T1/pxr/m/n/5 ([])  
+Overfull \vbox (8.7048pt too high) detected at line 201
  []
 
 
-Overfull \hbox (7.67668pt too wide) has occurred while \output is active
+Overfull \hbox (225.50795pt too wide) has occurred while \output is active
+ [][]  \T1/pxss/m/n/5 ([])  
+ []
+
+
+Overfull \hbox (5.6233pt too wide) has occurred while \output is active
  [][][][][][]  
  []
 
@@ -2156,57 +2179,61 @@ ut106.png> <./images/demo/out107.png> <./images/demo/out108.png> <./images/demo
 mo/out112.png> <./images/demo/out113.png> <./images/demo/out114.png> <./images/
 demo/out115.png> <./images/demo/out116.png> <./images/demo/out117.png> <./image
 s/demo/out118.png>
-LaTeX Font Info:    Try loading font information for T1+pxtt on input line 211.
+LaTeX Font Info:    Try loading font information for T1+pxtt on input line 208.
 
  (/usr/share/texlive/texmf-dist/tex/latex/pxfonts/t1pxtt.fd
 File: t1pxtt.fd 2000/12/14 v1.0
 )
-Overfull \hbox (224.61086pt too wide) has occurred while \output is active
- [][]  \T1/pxr/m/n/5 ([])  
+Overfull \vbox (4.1458pt too high) detected at line 208
  []
 
 
-Overfull \hbox (7.67668pt too wide) has occurred while \output is active
+Overfull \hbox (225.50795pt too wide) has occurred while \output is active
+ [][]  \T1/pxss/m/n/5 ([])  
+ []
+
+
+Overfull \hbox (5.6233pt too wide) has occurred while \output is active
  [][][][][][]  
  []
 
 [9
 
-] <images/Image4.png, id=991, 485.1726pt x 308.45674pt>
+] <images/Image4.png, id=992, 485.1726pt x 308.45674pt>
 File: images/Image4.png Graphic file (type png)
 
 <use images/Image4.png>
-Package pdftex.def Info: images/Image4.png used on input line 239.
-(pdftex.def)             Requested size: 208.31918pt x 132.44554pt.
- <images/Image5.jpg, id=992, 261.14369pt x 399.93483pt>
+Package pdftex.def Info: images/Image4.png used on input line 236.
+(pdftex.def)             Requested size: 207.41939pt x 131.87132pt.
+ <images/Image5.jpg, id=993, 261.14369pt x 399.93483pt>
 File: images/Image5.jpg Graphic file (type jpg)
 
 <use images/Image5.jpg>
-Package pdftex.def Info: images/Image5.jpg used on input line 239.
-(pdftex.def)             Requested size: 138.87592pt x 212.68454pt.
+Package pdftex.def Info: images/Image5.jpg used on input line 236.
+(pdftex.def)             Requested size: 138.27608pt x 211.76306pt.
 
-Overfull \vbox (1.5602pt too high) detected at line 239
+Overfull \vbox (5.87378pt too high) detected at line 236
  []
 
 
-Overfull \hbox (224.61086pt too wide) has occurred while \output is active
- [][]  \T1/pxr/m/n/5 ([])  
+Overfull \hbox (225.50795pt too wide) has occurred while \output is active
+ [][]  \T1/pxss/m/n/5 ([])  
  []
 
 
-Overfull \hbox (7.67668pt too wide) has occurred while \output is active
+Overfull \hbox (5.6233pt too wide) has occurred while \output is active
  [][][][][][]  
  []
 
 [10
 
  <./images/Image4.png> <./images/Image5.jpg>]
-Overfull \hbox (224.61086pt too wide) has occurred while \output is active
- [][]  \T1/pxr/m/n/5 ([])  
+Overfull \hbox (225.50795pt too wide) has occurred while \output is active
+ [][]  \T1/pxss/m/n/5 ([])  
  []
 
 
-Overfull \hbox (7.67668pt too wide) has occurred while \output is active
+Overfull \hbox (5.6233pt too wide) has occurred while \output is active
  [][][][][][]  
  []
 
@@ -2223,36 +2250,37 @@ Package atenddvi Info: Last page = 11.
 \tf@snm=\write9
 \openout9 = `Presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 250.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 247.
  (./Presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'Presentation.run.xml'.
 \openout1 = `Presentation.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
- 34076 strings out of 493029
- 651718 string characters out of 6136234
- 1043554 words of memory out of 5000000
- 36824 multiletter control sequences out of 15000+600000
- 41474 words of font info for 99 fonts, out of 8000000 for 9000
+ 34184 strings out of 493029
+ 654067 string characters out of 6136234
+ 1046457 words of memory out of 5000000
+ 36924 multiletter control sequences out of 15000+600000
+ 59190 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,16n,72p,10413b,1434s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,72p,10413b,1434s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/pxfonts/rpxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
-ino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Presentation.pdf (11 pages, 36680562 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/pxfonts/rpxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
+c/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Presentation.pdf (11 pages, 36667253 bytes).
 PDF statistics:
- 1074 PDF objects out of 1200 (max. 8388607)
- 591 compressed objects within 6 object streams
+ 1078 PDF objects out of 1200 (max. 8388607)
+ 594 compressed objects within 6 object streams
  23 named destinations out of 1000 (max. 500000)
  2223 words of extra memory for PDF output out of 10000 (max. 10000000)
 
