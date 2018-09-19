@@ -7,6 +7,8 @@ Example of Python application from Active Learning in Simulating Optics (ALSO) w
 
 ## Installation
 Download or clone this repository on your computer and run the main program `YoungDoubleSlit.py`.
+### Run Demo on Youtube
+Click on the image to play the demo video on youtube:
 
 [![YoungDoubleSlit run demo](https://img.youtube.com/vi/7gwWyiARpE4/0.jpg)](https://www.youtube.com/watch?v=7gwWyiARpE4)
 
