@@ -1,7 +1,9 @@
 # Young Double Slit application for ALSO workshop
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc/4.0/) 
 
-SPIE conference: Optics &amp; Photonics, San Diego 2018
+Example of Python application from Active Learning in Simulating Optics (ALSO) workshop presented at SPIE Optics + Photonics Conference , San Diego, CA, USA 2018:
+
+[Hands-on experimental and computer laboratory in optics: the Young double slit experiment](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10741/2322164/Hands-on-experimental-and-computer-laboratory-in-optics--the/10.1117/12.2322164.full?SSO=1)
 
 ## Installation
 Download or clone this repository on your computer and run the main program `YoungDoubleSlit.py`.
